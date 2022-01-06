@@ -54,7 +54,7 @@ h2{
     background-image: linear-gradient(orange, crimson);
     padding: 10px 10px;
     border-radius: 5px;
-    margin-bottom:15%  
+    margin-bottom:5%  
 }
 .flexible-container{
     display:flex;
@@ -113,7 +113,7 @@ h2{
 }
 
 .margin{
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .background-design{
