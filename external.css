@@ -1,0 +1,80 @@
+body{font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: bolder ;
+    font-size: 50px;
+    margin-left: 3%;
+}
+h3{
+    font-weight: bolder ;
+    font-size: 40px;
+    padding-left: 5%;
+}
+.mission{
+    color:purple;
+}
+.bordering{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+.merge{
+    width:50%;
+    text-align: justify;
+    padding-left: 10%;
+}
+.merge img{
+    width:80%;
+}
+.padding-bottom{
+    padding-bottom: 3%;
+}
+.padding-left{
+    padding-left:5%;
+}
+
+.link-button{
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient(orange, crimson);
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-bottom:15%  
+}
+.flexible-container{
+    display:flex;
+}
+.my-outcome{
+    text-align: center;
+}
+#first-portion{
+    color:slateblue;
+}
+#second-portion{
+    color:crimson;
+}
+.illustrator{
+    width:20%;
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-right: 50px;
+    border-radius: 10px;
+    box-shadow:20px 10px 40px grey;
+    padding-left: 5px;
+}
+.illustrator img{
+    width:40%
+}
+#first{
+    background-color: lightgreen
+}
+#second{
+    background-color: lightblue;
+}
+#third{
+    background-color: lightpink;
+}
