@@ -1,35 +1,48 @@
 body{font-family: 'Poppins', sans-serif;
+    
 }
 h1{
     font-weight: bolder ;
     font-size: 50px;
-    margin-left: 3%;
+    line-height: 20px;
+    margin-left: 1%;
+    
 }
+
 h3{
     font-weight: bolder ;
     font-size: 40px;
+    line-height: 20px;
     padding-left: 5%;
+}
+h2{
+    font-weight: bolder ;
+    font-size: 45px;
+    line-height: 20px;
+    padding-left: 5%;
+
 }
 .mission{
     color:purple;
 }
-.bordering{
-    
-    border-left: 7px solid;
-    border-image: linear-gradient(blue,cyan);
+#bordering{
+    border-left: 6px solid;
+    border-image: linear-gradient(orange, crimson);
     border-image-slice: 1;
 }
 
 .merge{
-    width:50%;
+    width:40%;
     text-align: justify;
     padding-left: 10%;
 }
+
 .merge img{
     width:80%;
 }
 .padding-bottom{
     padding-bottom: 3%;
+    margin-right: 4%;
 }
 .padding-left{
     padding-left:5%;
@@ -39,25 +52,35 @@ h3{
     text-decoration: none;
     color:white;
     background-image: linear-gradient(orange, crimson);
-    padding: 10px 40px;
+    padding: 10px 10px;
     border-radius: 5px;
     margin-bottom:15%  
 }
 .flexible-container{
     display:flex;
 }
+.bg-image{
+    background-image: url(shapes/shape-6.png);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position:right;
+}
 .my-outcome{
     text-align: center;
 }
+.line-height{
+    line-height: 100px;
+}
 #first-portion{
-    color:slateblue;
+    color:darkred;
 }
 #second-portion{
-    color:crimson;
+    color:red;
 }
 .illustrator{
     width:20%;
     text-align: justify;
+    margin-bottom: 5%;
     margin-right: 5%;
     margin-left: 5%;
     padding-left: 5%;
@@ -67,7 +90,7 @@ h3{
     padding-left: 5px;
 }
 .illustrator img{
-    width:40%
+    width:70%
 }
 #first{
     background-color: lightgreen
@@ -77,4 +100,64 @@ h3{
 }
 #third{
     background-color: lightpink;
+}
+.size{
+    font-size: 45px;
+}
+.background-image{
+    background-image: url(shapes/shape-7.png);
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.margin{
+    margin-top: 5%;
+}
+
+.background-design{
+    background-image: url(shapes/shape-1.png);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.bg{
+    background-image: url(shapes/shape-8.png);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.first-phase{
+    color:rebeccapurple;
+}
+.second-phase{
+    color:violet;
+}
+.bgi{
+    background-image: url(shapes/shape-9.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+footer{
+   
+    background-color:black;
+    padding:0.001%;
+}
+
+footer h4{
+    text-align: center;
+    color:white;
+}
+#fp{
+    color:purple;
+}
+#sp{
+    color:red;
+}
+.allign{
+    text-align: center;
+
 }
